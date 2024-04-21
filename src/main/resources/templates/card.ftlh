@@ -25,7 +25,7 @@
         </div>
         <div class="row">
             <span class="label">Datum narození</span>
-            <span class="value">${person.birthDate.format('LONG_DATE')}</span>
+            <span class="value">${person.birthDate?date?string.long}</span>
         </div>
         <div class="row">
             <span class="label">Věk</span>
