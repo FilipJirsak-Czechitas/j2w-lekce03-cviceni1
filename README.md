@@ -3,7 +3,7 @@
 Vytvoříme webovou stránku, která bude zobrazovat údaje o osobě – jméno, příjmení, datum narození, věk a adresu. Údaje pro zobrazení budeme načítat z modelu
 sestávajícího ze dvou entit – `Person` (pro osobní údaje) a `Address` (pro adresu). 
 
-1. Udělej fork zdrojového repository do svého účtu na GitHubu.
+1. Použij toto repository jako šablonu (Use this template), ze které si vytvoříš repository ve svém účtu na GitHubu.
 1. Naklonuj si repository **ze svého účtu** na GitHubu na lokální počítač.
 1. Vytvoř kontrolér – třídu `cz.czechitas.java2webapps.lekce3.controller.CardController`.
 1. V kontroléru bude jedna metoda, která bude vracet `ModelAndView`. Jako view bude použito `card`. Metoda bude navázána na cestu `/`.
